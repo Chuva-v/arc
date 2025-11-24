@@ -1,0 +1,126 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 19 de set. de 2025, 19:42:13
+    Author     : ESCOLA
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+
+body{
+    background-color: rgb(15, 15, 15);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: "Press Start 2P", system-ui;
+}
+.a1{
+    width: 500px;
+    height: 9vh;
+    background-color: rgba( 200, 200, 200, 0.6);
+    border-bottom: 4px solid #181919;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+    h4{
+        margin-left: 20px;
+        font-size: 20px;
+    }
+    
+    .b{
+        margin-right: 10px;
+        padding: 0 10px;
+        width: 200px;
+        height: 50px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        
+        .b1{
+            width: 50px;
+            height: 50px;
+            border-radius: 50px;
+            background-color: #181919
+        }
+        .b2{
+            width: 50px;
+            height: 50px;
+            border-radius: 50px;
+            background-color: rgba( 200, 200, 200, 0.6);
+            border: 1px solid #181919;
+        }
+        .b3{
+            width: 50px;
+            height: 50px;
+            border-radius: 50px;
+            background-color: rgba( 200, 200, 200, 0.6);
+            border: 1px solid #181919;
+        }
+    }
+}
+
+.container{
+    width: 500px;
+    height: 70vh;
+    background-color: rgba( 200, 200, 200, 0.6);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+    .teste{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .dteste{
+            margin-top: 30%;
+            text-align: center;
+            
+            input{
+                padding-top: 6px;
+                padding-left:6px; 
+                padding-right: 6px;
+                margin-bottom: 10px; 
+                width: 300px;
+                height: 30px;
+                background-color: rgba(200, 200, 200, 0.6);
+                border-radius: 10px;
+                border: none;
+                box-shadow: 3px 3px 1px rgba(0, 0, 0, 0.5);
+            }
+            .butao{
+                margin-top: 100px;
+                width: 150px;
+                height: 40px;
+                background-color: rgba(200, 200, 200, 0.6);
+                border: none;
+                border-radius: 5px;
+                box-shadow: 3px 3px 1px rgba(0, 0, 0, 0.5);
+                font-size: 30px;
+            }
+            .errologin{
+                color: rgba( 200, 200, 200, 0.6);
+            }
+        }
+    }
+}
+table{
+    text-align: center;
+}
+::placeholder{
+    text-align: center;
+    color: black;
+    font-size: 13px;
+    font-family: "Press Start 2P", system-ui;
+}
+.espaco{
+    height: 20px;
+    width: 20px;
+}

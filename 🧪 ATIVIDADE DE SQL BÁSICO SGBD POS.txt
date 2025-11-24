@@ -1,0 +1,245 @@
+🧪 ATIVIDADE DE SQL BÁSICO SGBD POSTGRES 
+Nome: ___________________________________
+Data: _______________
+Instruções: Marque a alternativa correta para cada questão.
+
+Questões:
+1. 	Qual comando SQL é usado para recuperar dados de uma tabela?
+a. 	INSERT
+b) UPDATE 
+c) DELETE 
+d) SELECT
+2. 	Qual cláusula é usada para filtrar registros em uma consulta?
+a. 	WHERE 
+b) ORDER BY 
+c) HAVING 
+d) GROUP BY
+
+3. 	Qual comando insere novos dados em uma tabela?
+a. 	INSERT INTO 
+b) CREATE TABLE 
+c) UPDATE 
+d) SELECT INTO
+
+4. 	Qual comando modifica dados existentes em uma tabela?
+a. 	UPDATE 
+b) DROP 
+c) ALTER TABLE 
+d) INSERT
+
+5. 	Qual comando exclui registros de uma tabela?
+a. 	DELETE 
+b)  REMOVE 
+c)  TRUNCATE 
+d)  DROP
+6. 	Qual comando cria uma nova tabela?
+a. 	CREATE TABLE 
+b) MAKE TABLE 
+c) NEW TABLE 
+d) INSERT TABLE
+
+7. 	Qual cláusula ordena os resultados de uma consulta?
+
+a. 	ORDER BY 
+b) GROUP BY 
+c) SORT BY 
+d) FILTER BY
+
+8. 	Qual função retorna o número total de registros?
+a. COUNT() 
+b) SUM() 
+c) MAX() 
+d) AVG()
+
+9. 	Qual comando exclui uma tabela do banco de dados?
+a. 	DELETE TABLE 
+b)   DROP TABLE 
+c)   REMOVE TABLE 
+d) TRUNCATE TABLE
+
+10. 	Qual operador é usado para combinar múltiplas condições na cláusula WHERE?
+a. NOT 
+b) OR 
+c) ALL 
+d) AND
+
+11. 	Qual comando adiciona uma nova coluna a uma tabela existente?
+a. 	ALTER TABLE 
+b) MODIFY TABLE 
+c) ADD COLUMN 
+d) UPDATE TABLE
+
+12. 	Qual palavra-chave é usada para evitar duplicatas em uma consulta?
+a. 	FILTER 
+b) PRIMARY 
+c) UNIQUE 
+d) DISTINCT
+
+13. 	Qual comando retorna registros que atendem a um padrão específico?
+a. LIKE 
+b) FIND 
+c) MATCH 
+d) SEARCH
+
+14. 	Qual função retorna a média de valores em uma coluna?
+a. COUNT() 
+b) AVG() 
+c) MAX() 
+d) SUM()
+
+15. 	Qual comando é usado para combinar dados de duas tabelas relacionadas?
+a. COMBINE 
+b) LINK 
+c) MERGE 
+d) JOIN
+
+16. 	Qual comando é usado para atualizar todos os registros de uma tabela?
+a. 	UPDATE tabela SET coluna = valor
+b. 	ALTER TABLE tabela SET coluna = valor
+c. 	MODIFY tabela SET coluna = valor
+d. 	CHANGE tabela SET coluna = valor
+
+17. 	Qual comando é usado para remover todos os registros de uma tabela, mas manter sua estrutura?
+a. 	DELETE FROM tabela
+b. 	DROP TABLE tabela
+c. 	TRUNCATE TABLE tabela
+d. 	REMOVE ALL FROM tabela
+
+18. 	Qual cláusula agrupa registros com valores semelhantes?
+a. ORDER BY 
+b) GROUP BY 
+c) HAVING 
+d) UNION
+
+19. 	Qual comando é usado para criar uma visualização (view) no PostgreSQL?
+a. CREATE VIEW 
+b) MAKE VIEW 
+c) NEW VIEW 
+d) INSERT VIEW
+
+20. 	Qual comando é usado para conceder permissões a um usuário?
+a. 	ALLOW USER 
+b) GRANT 
+c) PERMIT 
+d) AUTHORIZE
+
+
+Modelagem de Banco de Dados
+ Projeto de Banco de Dados
+
+21. Qual é a primeira etapa no projeto de um banco de dados?  
+   a) Normalização  
+   b) Modelo lógico  
+   c) Modelo físico  
+   d) Levantamento de requisitos
+
+22. O que representa o modelo conceitual em um projeto de banco de dados?  
+   a) A estrutura física das tabelas  
+   b) A implementação em SQL  
+   c) A visão abstrata dos dados e suas relações  
+   d) O desempenho do banco
+
+23. Qual objetivo principal da modelagem de dados?  
+   a) Criar índices para acelerar consultas  
+   b) Representar a estrutura lógica dos dados  
+   c) Otimizar o uso de memória  
+   d) Gerar relatórios automáticos
+
+24. Qual técnica é usada para evitar redundância e inconsistência nos dados?  
+   a) Indexação  
+   b) Backup  
+   c) Normalização  
+   d) Replicação
+
+25. O que é cardinalidade em um relacionamento?  
+   a) A quantidade de atributos em uma entidade  
+   b) O número de registros em uma tabela  
+   c) O número de ocorrências de uma entidade relacionadas a outra  
+   d) O tipo de chave primária
+
+---
+
+ Modelo Entidade-Relacionamento (MER)
+
+26. No MER, o que é uma entidade?  
+   a) Um atributo composto  
+   b) Um conjunto de dados que representa um objeto do mundo real  
+   c) Uma tabela temporária  
+   d) Um índice de busca
+
+27. Qual símbolo representa um relacionamento no diagrama ER?  
+   a) Retângulo  
+   b) Elipse  
+   c) Losango  
+   d) Linha tracejada
+
+28. Qual tipo de atributo pode ser dividido em subcomponentes?  
+   a) Simples  
+   b) Composto  
+   c) Derivado  
+   d) Chave
+
+29. Qual tipo de relacionamento representa “muitos para muitos”?  
+   a) 1:N  
+   b) N:1  
+   c) N:N  
+   d) 1:1
+
+30. Qual elemento do MER representa uma característica de uma entidade?  
+    a) Relacionamento  
+    b) Atributo  
+    c) Chave estrangeira  
+    d) Cardinalidade
+
+31. O que é uma entidade fraca?  
+    a) Uma entidade com poucos atributos  
+    b) Uma entidade que depende de outra para existir  
+    c) Uma entidade sem chave primária  
+    d) Uma entidade temporária
+
+32. Qual tipo de atributo é calculado a partir de outros?  
+    a) Simples  
+    b) Composto  
+    c) Derivado  
+    d) Multivalorado
+
+
+ Modelo Lógico
+
+33. O modelo lógico é derivado de qual outro modelo?  
+    a) Modelo físico  
+    b) Modelo relacional  
+    c) Modelo conceitual  
+    d) Modelo dimensional
+
+34. No modelo lógico, o que representa uma entidade?  
+    a) Uma tabela  
+    b) Um índice  
+    c) Um campo  
+    d) Um relacionamento
+
+35. Qual elemento do modelo lógico representa uma chave primária?  
+    a) Um atributo qualquer  
+    b) Um campo que identifica unicamente cada registro  
+    c) Um relacionamento entre tabelas  
+    d) Um índice secundário
+
+
+
+36. O que é integridade referencial?  
+    a) Garantia de que os dados estão normalizados  
+    b) Garantia de que os dados são únicos  
+    c) Garantia de que uma chave estrangeira corresponde a uma chave primária existente  
+    d) Garantia de que os dados estão criptografados
+
+37. Qual comando SQL representa a criação de uma tabela no modelo lógico?  
+    a) CREATE DATABASE  
+    b) CREATE TABLE  
+    c) INSERT INTO  
+    d) ALTER TABLE
+
+38. Qual é o objetivo da normalização no modelo lógico?  
+    a) Criar índices para acelerar consultas  
+    b) Reduzir redundância e dependência de dados  
+    c) Aumentar o número de tabelas  
+    d) Gerar backups automáticos
